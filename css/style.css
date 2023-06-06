@@ -1,0 +1,139 @@
+body{
+    font-family: poppins, montserrat, sans-serif;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+
+ /* Navigation*/
+.customNav{
+    color: #B2BDA0;
+    padding: 20px;
+}
+
+#navbarSupportedContent{
+    justify-content: flex-end;
+}
+
+.navbar-brand{
+    padding-left: 40px;
+}
+.navbar-nav{
+    gap: 10px;
+}
+.btnOne{
+    color: #131313;
+    border-radius: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 24px;
+    padding-left: 24px;
+    justify-content: flex-end;
+    font-weight:500;
+}
+
+.btn{
+    background-color: #131313;
+    border-radius: 22px;
+    color: white;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.btn:hover{
+    background-color: #8D9E6F;
+    color: #131313;
+}
+ /* Jumbotron*/
+.jumbotron{
+    background-color: #2E391C;
+    color: white;
+    height: 600px;
+
+}
+
+
+.google{
+    height: 48 px;
+    width: 164px;
+}
+
+ /* Blurb*/
+
+
+
+ /* Reviews*/
+.review{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+ /* Cards*/
+.rowOne{
+    justify-content: center;
+    padding: 50px;
+    align-items: flex-end;
+}
+
+.rowTwo{
+    justify-content: center;
+    padding: 50px;
+    align-items: flex-end;
+}
+
+.card{
+    text-align: left;
+    border-color: transparent;
+}
+
+.card img{
+    padding-top: 30px;
+    height: ;
+    width: 70%;
+}
+
+ /* Jumbotron*/
+ .jumbotronCTA{
+    display: flex;
+    text-align: center;
+    background-color: #E2E5DA;
+    color: #4F6133;
+    padding: 150px;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.apple{
+    height: 50px;
+    width: 166px;
+}
+
+ /* Footer*/
+footer{
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+
+.footerBlurb img{
+    height: 30px;
+    padding: 4px;
+}
+
+.links{
+    flex-direction: column;
+    margin-left: 300px;
+    
+}
+
+.links ul li{
+    list-style-type: none;
+}
