@@ -6,10 +6,11 @@ body{
 
 
  /* Navigation*/
-.customNav{
-    color: #B2BDA0;
-    padding: 20px;
+
+.navbar{
+    background-color: #E2E5DA !important;
 }
+
 
 #navbarSupportedContent{
     justify-content: flex-end;
@@ -95,7 +96,6 @@ body{
 
 .card img{
     padding-top: 30px;
-    height: ;
     width: 70%;
 }
 
@@ -120,6 +120,8 @@ body{
 footer{
     padding-top: 50px;
     padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -131,9 +133,59 @@ footer{
 .links{
     flex-direction: column;
     margin-left: 300px;
+
     
 }
 
 .links ul li{
     list-style-type: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .display-4{
+      font-size: 2.5rem;
+    }
+    .jumbotronCTA{
+        padding: 40px;
+    }
+    .icons{
+        margin-top: 40px;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .links{
+        margin-left: -60px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerBlurb{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .links h4{
+        margin-left: 60px;
+    }
+    .navbar-collapse{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  .navbar-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0 !important;
+  }
+  }
+  
